@@ -7,11 +7,5 @@ module Spree
     def provider_class
       ActiveMerchant::Billing::PayuInGateway
     end
-
-    # (no authorize method).
-    def auto_capture?
-      true
-    end
-
   end
 end 
